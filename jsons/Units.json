@@ -1084,6 +1084,20 @@
 
 	//Aztlán unique units
 	{
+		"name": "Tlacotin",
+		"replaces": "Worker",
+		"uniqueTo": "Aztlán",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"hurryCostModifier": -20,
+		"upgradesTo": "Mechanized Worker",
+		"uniques": ["Comment [Cheaper to buy]",
+			"Can move immediately once bought",
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action"]
+	},
+	{
 		"name": "Jaguar",
 		"unitType": "Scrapper",
 		"uniqueTo": "Aztlán",
